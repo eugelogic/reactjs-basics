@@ -3,7 +3,7 @@ title: "shouldComponentUpdate"
 path: "shouldcomponentupdate"
 date: "2020-04-15"
 draft: false
-excerpt: null
+excerpt: Rarely used method, for performance optimisation only. Let React know if a component’s output is NOT affected by the current change in state or props.
 tags: null
 ---
 
@@ -11,7 +11,7 @@ import SCU from 'components/SCU'
 
 [Link to docs](https://reactjs.org/docs/react-component.html#shouldcomponentupdate)
 
-The `shouldComponentUpdate()` method ONLY exists for performance optimization.
+The `shouldComponentUpdate()` method ONLY exists for performance optimisation.
 
 Use `shouldComponentUpdate()` to let React know if a component’s output is NOT affected by the current change in state or props.
 

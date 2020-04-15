@@ -25,6 +25,7 @@ const Layout = ({ data, index }) => {
                             >
                                 <Link to={`/blog/${frontmatter.path}`}>{frontmatter.title}</Link>
                             </h2>
+                            <p>{frontmatter.excerpt}</p>
                         </>
                     )
                 })}
@@ -46,6 +47,7 @@ export const query = graphql`
                     frontmatter {
                         title
                         path
+                        excerpt
                     }
                 }
             }

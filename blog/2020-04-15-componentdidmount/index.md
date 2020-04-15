@@ -3,7 +3,7 @@ title: "componentDidMount"
 path: "componentdidmount"
 date: "2020-04-15"
 draft: false
-excerpt: null
+excerpt: Invoked immediately after a component is mounted. This is a good place to instantiate a network request like fetching some data from an API.
 tags: null
 ---
 
