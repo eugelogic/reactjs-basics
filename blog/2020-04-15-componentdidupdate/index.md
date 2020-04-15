@@ -1,5 +1,5 @@
 ---
-title: "componentDidUpdate"
+title: "componentDidUpdate( )"
 path: "componentdidupdate"
 date: "2020-04-15"
 draft: false

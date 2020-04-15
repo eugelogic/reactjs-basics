@@ -1,5 +1,5 @@
 ---
-title: "componentWillUnmount"
+title: "componentWillUnmount( )"
 path: "componentwillunmount"
 date: "2020-04-15"
 draft: false

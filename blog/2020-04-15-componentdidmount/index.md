@@ -1,5 +1,5 @@
 ---
-title: "componentDidMount"
+title: "componentDidMount( )"
 path: "componentdidmount"
 date: "2020-04-15"
 draft: false

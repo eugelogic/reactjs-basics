@@ -1,5 +1,5 @@
 ---
-title: "shouldComponentUpdate"
+title: "shouldComponentUpdate( )"
 path: "shouldcomponentupdate"
 date: "2020-04-15"
 draft: false
