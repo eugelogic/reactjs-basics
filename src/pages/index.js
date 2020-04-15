@@ -21,9 +21,11 @@ const Layout = ({ data, index }) => {
                         <>
                             <h2
                                 key={frontmatter.path}
-                                style={{ marginBottom: '20px' }}
+                                style={{ marginBottom: '0' }}
                             >
-                                <Link to={`/blog/${frontmatter.path}`}>{frontmatter.title}</Link>
+                                <Link to={`/blog/${frontmatter.path}`} style={{ textDecoration: 'none' }}>
+                                    {frontmatter.title}
+                                </Link>
                             </h2>
                             <p>{frontmatter.excerpt}</p>
                         </>
