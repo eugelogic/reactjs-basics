@@ -1,0 +1,19 @@
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.shoutout {
+  background-color: yellow;
+  padding: 20px;
+}
+
+.shoutout h3,
+.shoutout p {
+  text-transform: uppercase;
+}
