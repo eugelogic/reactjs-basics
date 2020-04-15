@@ -14,9 +14,11 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                 <div>
                     <ul style={{
                         display: 'flex',
-                        listStyle: 'none'
+                        justifyContent: 'space-between',
+                        listStyle: 'none',
+                        paddingLeft: 0
                     }}>
-                        {prev && <li style={{marginRight: '40px'}}><Link style={{textDecoration: 'none'}} to={`/blog/${prev.frontmatter.path}`}>PREV</Link></li>}
+                        {prev && <li><Link style={{textDecoration: 'none'}} to={`/blog/${prev.frontmatter.path}`}>PREV</Link></li>}
                         {next && <li><Link style={{textDecoration: 'none'}} to={`/blog/${next.frontmatter.path}`}>NEXT</Link></li>}
                     </ul>
                 </div>
