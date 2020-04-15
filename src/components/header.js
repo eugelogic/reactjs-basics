@@ -5,24 +5,26 @@ export const TitleAndDescription = ({ data }) => {
     const title = data.site.siteMetadata.title
     const description = data.site.siteMetadata.description
     return (
-        <div style={{
+        <header style={{
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            fontFamily: 'avenir'
+            fontFamily: 'avenir',
+            backgroundColor: '#20232a',
+            color: 'white'
         }}>
             <h1 style={{marginBottom: 0}}>
-                <Link to={`/`} style={{ textDecoration: 'none' }}>
+                <Link to={`/`} style={{ textDecoration: 'none', color: '#61dafb' }}>
                     {title}
                 </Link>
             </h1>
             <p style={{
                 marginTop: 0,
-                opacity: 0.5
+                opacity: 0.75
             }}>
                 {description}
             </p>
-        </div>
+        </header>
     )
 }
 
