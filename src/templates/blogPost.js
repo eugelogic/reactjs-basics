@@ -3,6 +3,8 @@ import { Link, graphql } from 'gatsby'
 import Header from '../components/header'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
+import '../styles/global.css'
+
 const BlogPostTemplate = ({ data, pageContext }) => {
     const { prev, next } = pageContext
     const { mdx } = data
