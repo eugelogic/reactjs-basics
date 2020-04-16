@@ -1,7 +1,7 @@
 ---
 title: "componentWillUnmount( )"
 path: "componentwillunmount"
-date: "2020-04-15"
+date: "2020-03-27"
 draft: false
 excerpt: Called when a component is being removed from the DOM. Perform any necessary cleanup in this method, such as invalidating timers, canceling network requests, or cleaning up any subscriptions
 tags: null

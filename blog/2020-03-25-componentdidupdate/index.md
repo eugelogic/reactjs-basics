@@ -1,7 +1,7 @@
 ---
 title: "componentDidUpdate( )"
 path: "componentdidupdate"
-date: "2020-04-15"
+date: "2020-03-25"
 draft: false
 excerpt: Invoked immediately after updating occurs. Good place to operate on the DOM and/or do network requests as long as you compare the current props to previous ones.
 tags: null

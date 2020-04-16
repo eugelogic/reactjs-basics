@@ -1,7 +1,7 @@
 ---
 title: "render( )"
 path: "render"
-date: "2020-04-15"
+date: "2020-03-19"
 draft: false
 excerpt: This method is the only required method in a class component.
 tags: null

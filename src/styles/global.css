@@ -359,6 +359,10 @@ body {
   padding: 20px;
 }
 
+h2 > a {
+  color: black;
+}
+
 p,
 li {
   font-size: 18px;

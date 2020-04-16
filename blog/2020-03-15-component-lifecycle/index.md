@@ -1,7 +1,7 @@
 ---
 title: "Component Lifecycle"
 path: "component-lifecycle"
-date: "2020-04-15"
+date: "2020-03-15"
 draft: false
 excerpt: Set of hooks for when certain events take place. Hooks are just functions we might call to manipulate the flow of data within a component.
 tags: null

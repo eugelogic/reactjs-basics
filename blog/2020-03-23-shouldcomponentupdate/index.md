@@ -1,7 +1,7 @@
 ---
 title: "shouldComponentUpdate( )"
 path: "shouldcomponentupdate"
-date: "2020-04-15"
+date: "2020-03-23"
 draft: false
 excerpt: Rarely used method, for performance optimisation only. Let React know if a component’s output is NOT affected by the current change in state or props.
 tags: null

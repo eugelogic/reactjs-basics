@@ -1,7 +1,7 @@
 ---
 title: "componentDidMount( )"
 path: "componentdidmount"
-date: "2020-04-15"
+date: "2020-03-21"
 draft: false
 excerpt: Invoked immediately after a component is mounted. This is a good place to set up a timer or fetch some data from an API.
 tags: null

@@ -1,7 +1,7 @@
 ---
 title: "constructor( )"
 path: "constructor"
-date: "2020-04-15"
+date: "2020-03-17"
 draft: false
 excerpt: If you don’t initialize state and you don’t bind methods, you don’t need to implement a constructor for your React component.
 tags: null

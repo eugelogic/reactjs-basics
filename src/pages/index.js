@@ -41,7 +41,7 @@ export default Layout
 export const query = graphql`
     query BlogsListQuery {
         allMdx(
-            sort: { fields: frontmatter___date, order: DESC },
+            sort: { fields: frontmatter___date, order: ASC },
             filter: { frontmatter: { draft: { eq: false } } }
             ) {
             edges {
