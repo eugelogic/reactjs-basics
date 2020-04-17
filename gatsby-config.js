@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `React Basic`,
+    title: `React Basics`,
     description: `Fundamental notions of React JS`
   },
   plugins: [
