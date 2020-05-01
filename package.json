@@ -16,10 +16,10 @@
   "dependencies": {
     "@mdx-js/mdx": "1.6.0",
     "@mdx-js/react": "1.6.0",
-    "gatsby": "2.21.7",
+    "gatsby": "2.21.9",
     "gatsby-plugin-mdx": "1.2.4",
     "gatsby-source-filesystem": "2.3.0",
-    "gatsby-transformer-remark": "2.8.3",
+    "gatsby-transformer-remark": "2.8.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "slugify": "1.4.0"
