@@ -353,12 +353,6 @@ template {
 /* END OF NORMALIZE
    ========================================================================== */
 
-body {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 h2 > a {
   color: black;
 }

@@ -1,12 +1,11 @@
 import React from "react"
 import { Link, graphql } from 'gatsby'
-import Header from '../components/header'
+import Layout from '../components/layout/layout'
 
-const Layout = ({ data, index }) => {
+const postsIndex = ({ data, index }) => {
     const { edges } = data.allMdx
     return (
-        <div>
-            <Header />
+        <Layout>
             <article
             key={index}
             style={{
@@ -32,11 +31,11 @@ const Layout = ({ data, index }) => {
                     )
                 })}
             </article>
-        </div>
+        </Layout>
     )
 }
 
-export default Layout
+export default postsIndex
 
 export const query = graphql`
     query BlogsListQuery {
