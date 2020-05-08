@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import Header from '../components/header'
+import Layout from '../components/layout/layout'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 import '../styles/global.css'
@@ -9,8 +9,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
     const { prev, next } = pageContext
     const { mdx } = data
     return (
-        <>
-            <Header />
+        <Layout>
             <div style={{ fontFamily: 'avenir' }}>
                 <h1>{mdx.frontmatter.title}</h1>
                 <div>
@@ -26,7 +25,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                 </div>
                 <MDXRenderer>{mdx.body}</MDXRenderer>
             </div>
-        </>
+        </Layout>
     )
 }
 
