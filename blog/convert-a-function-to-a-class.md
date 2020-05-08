@@ -7,6 +7,8 @@ excerpt: In order to get the most out of state and the lifecycle methods, you ne
 tags: null
 ---
 
+[Link to docs](https://reactjs.org/docs/state-and-lifecycle.html#converting-a-function-to-a-class)
+
 You can convert a function component to a class in five steps:
 
 1. Create an [ES6 class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes), with the same name, that extends React.Component
